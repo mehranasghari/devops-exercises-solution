@@ -5,3 +5,6 @@ if [ -z $1 ]; then
 else
 	echo "Today is $1"
 fi
+
+
+echo "Today is ${1:-a great day!}"
